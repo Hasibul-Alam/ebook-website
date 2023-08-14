@@ -1,0 +1,51 @@
+.navbar .btn-outline-light:hover{
+    color: var(--bs-dark);
+}
+
+.header{
+    background: url(../images/header-background.jpg) fixed center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#svg{
+    margin-top: -80px;
+}
+
+.modal-dialog{
+    max-width: 768px;
+}
+.navbar{
+    transition: all 0.5s ease-in-out;
+}
+.navbar-transparent{
+    opacity: 0.9;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.download{
+    background: url('../images/download-background.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.download img{
+    margin-top: -100px;
+}
+
+.map iframe{
+    left: 0;
+    top: 0;
+    height: 400px;
+    width: 100%;
+    border: none;
+}
+@media(max-width:992px){
+    .hero .image-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero .text-container{
+        text-align: center;
+    }
+}
